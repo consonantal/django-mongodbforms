@@ -1,6 +1,7 @@
 # django mongodbforms
 
-This is an implementation of django's model forms for mongoengine documents.
+This is an implementation of django's model forms for python 2+ and 3+ for mongoengine
+documents.
 
 ## Requirements
 
@@ -96,6 +97,5 @@ class MessageForm(DocumentForm):
     class Meta:
 		formfield_generator = MyFieldGenerator
 ```
-
 
 
